@@ -8,12 +8,16 @@
 
 int main(int argc, char const *argv[])
 {
-	std::string directory;
-	std::cout << "Enter a directory(ends with \'\\\'): ";
-	std::cin >> directory;
-	directory.append("*.*");
+	do {
+		std::string directory;
+		std::cout << "Enter a directory(ends with \'\\\'): ";
+		std::cin >> directory;
+		if (directory == "Q")
+			break;
+		directory.append("*.*");
 
-	listFiles(directory);
+		listFiles(directory);
+	} while (true);
 
     return 0;
 }
