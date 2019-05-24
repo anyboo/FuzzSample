@@ -1,0 +1,2 @@
+# FuzzSample
+Fuzzing Sample
