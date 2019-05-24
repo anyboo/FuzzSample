@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{3DE9D1B8-21A7-49D1-8522-F065DC15D4F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{365A856A-05B1-4AD1-857C-31B240EFCF95} = {365A856A-05B1-4AD1-857C-31B240EFCF95}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Project1", "..\ConsoleDll\Win32Project1\Win32Project1.vcxproj", "{365A856A-05B1-4AD1-857C-31B240EFCF95}"
 EndProject
